@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Request Opener</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        width: 200px;
+      }
+      input {
+        width: 100%;
+        padding: 5px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      li {
+        padding: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Добавить домен</h3>
+    <input id="domainInput" type="text" placeholder="example.com" />
+    <button id="addDomainBtn">Добавить домен</button>
+    <h3>Отслеживаемые домены</h3>
+    <ul id="domainList"></ul>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
